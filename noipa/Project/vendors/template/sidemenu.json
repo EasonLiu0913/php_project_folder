@@ -1,0 +1,51 @@
+[
+    {
+        "name" : "首頁",
+        "link" : "./admin.php",
+        "permission" : "all",
+        "icon" : "fa-diamond"
+    },{
+        "name" : "商品和分類",
+        "link" : "./products.php",
+        "permission" : "prmV01",
+        "icon" : "fa-pie-chart"
+    },{
+        "name" : "報表及分析",
+        "link" : "./charts.php",
+        "permission" : "prmV02",
+        "icon" : ""
+    },{
+        "name" : "網站行銷",
+        "link" : "./marketing.php",
+        "permission" : "prmV03",
+        "icon" : ""
+    },{
+        "name" : "訂單",
+        "link" : "./orders.php",
+        "permission" : "prmV04",
+        "icon" : ""
+    },{
+        "name" : "設定",
+        "link" : "#",
+        "permission" : "all",
+        "icon" : "",
+        "submenu" : [
+            {
+                "name" : "你的團隊",
+                "link" : "./staff.php",
+                "permission" : "prmV00",
+                "icon" : ""
+            },{
+                "name" : "新增人員",
+                "link" : "./staff_add.php",
+                "permission" : "prmV00",
+                "icon" : ""
+            },{
+                "name" : "帳號",
+                "link" : "./my_account.php",
+                "permission" : "all",
+                "icon" : ""
+            }
+        ]
+    }
+]
